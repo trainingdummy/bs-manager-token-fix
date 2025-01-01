@@ -29,7 +29,7 @@ export function isOculusTokenValid(token: string, logger?: (...args: unknown[]) 
         return false;
     }
 
-    logger?.("Oculus user token is valid.", `token lenght : ${token.length}`);
+    logger?.("Oculus user token is valid.", `token length : ${token.length}`);
 
     return true;
 
